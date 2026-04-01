@@ -37,8 +37,7 @@ button {
 }
 
 .code_color {
-  color: white;
-  background-color: black;
+  font-weight: bold;;
 }
 
 sup {

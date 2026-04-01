@@ -87,7 +87,10 @@ function generate() {
     document.getElementById("respect2").innerText = respect;
 
     document.getElementById("code").innerHTML =
-        "DR/" + autoCode + " - 2520 <br> <p style='background-color: white;color: black;'> SP - " + sponsor + " - " + "[" + typeValue + "]" + "</p>";
+    "<span style='background-color: black; color: white; display: inline-block; padding: 2px 6px;'>"
+    + "DR/" + autoCode + " - 2520" +
+    "</span><br>" +
+    "<span style='margin-top: 10px;display: inline-block;'>SP - " + sponsor + " - [" + typeValue + "]</span>";
 
     document.getElementById("date").innerHTML = formattedDate;
 }
